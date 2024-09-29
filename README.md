@@ -1,2 +1,4 @@
 # nzombies-chronicles-weapons
-Archive of all the weapon code used in the nZC servers
+This is all the code for all the weaponry used in nZC.
+
+Note: uses [nZombies Chronicles TFA Base](https://github.com/Ethorbit/nzombies-chronicles-tfa-base)
