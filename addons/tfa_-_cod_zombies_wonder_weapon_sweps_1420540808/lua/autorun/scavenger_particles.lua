@@ -1,0 +1,6 @@
+game.AddParticles("particles/nzc_scavenger.pcf")
+	PrecacheParticleSystem("ubersniper_explosion_base")
+	PrecacheParticleSystem("ubersniper_pap_base")
+	PrecacheParticleSystem("ubersniper_victim_redmist")
+game.AddParticles("particles/nzc_neuro_gore.pcf")
+	PrecacheParticleSystem("tank_gore")

@@ -1,0 +1,5 @@
+game.AddParticles("particles/nzc_raygun.pcf")
+PrecacheParticleSystem("raygunmkii_muzzle")
+PrecacheParticleSystem("raygunmkii_muzzlecore")
+PrecacheParticleSystem("raygunmkii_projectile")
+PrecacheParticleSystem("raygunmkii_impact")
