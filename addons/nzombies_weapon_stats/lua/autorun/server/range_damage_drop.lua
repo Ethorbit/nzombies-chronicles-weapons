@@ -1,0 +1,21 @@
+-- TFA's damage range just simply does not work, likely due to the fact
+-- that bullets can teleport in this mode in order to pass invisible walls
+-- and other invisible entities
+
+-- hook.Add("EntityTakeDamage", "NZCoDRangeDamage", function(target, dmginfo)
+--     if (IsValid(target) and target:IsValidZombie()) then
+--         local owner = dmginfo:GetAttacker()
+--         if (IsValid(owner) and owner:IsPlayer()) then
+--             local wep = owner:GetActiveWeapon()
+--             if (IsValid(wep) and wep:IsWeapon()) then
+--                 local distance = (owner:GetPos() - target:GetPos()):Length()
+--                 local range = wep:GetStat("Primary.DamageRange")
+--                 if (range and distance > range) then
+--                     local dmgScale = math.Clamp(range / distance, 0, 1)
+--                     print(dmgScale)
+--                     dmginfo:ScaleDamage(dmgScale)
+--                 end 
+--             end
+--         end
+--     end
+-- end)
